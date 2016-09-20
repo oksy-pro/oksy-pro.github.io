@@ -45,7 +45,7 @@ $(function() {
     })
     .jcarouselPagination();
 
-    var main_menu = new Menu(document.querySelector('.main-menu'), main_menu_data);
+  new Menu(document.querySelector('.main-menu'), main_menu_data);
 
 });
 
@@ -156,9 +156,9 @@ var main_menu_data = [
           {"title": "Carolyn Peters", "link": "#", "sub": null},
           {"title": "Ruby Nelson", "link": "#", "sub": null}
         ]},
-        {"title": "Browsezoom", "link": "#", "sub": null},
+        {"title": "Browsezoom", "link": "#", "sub": null}
       ]},
-      {"title": "685 Anthes Hill", "link": "#", "sub": null},
+      {"title": "685 Anthes Hill", "link": "#", "sub": null}
     ]},
     {"title": "Rancakuya", "link": "#", "sub": null},
     {"title": "Cuauhtemoc", "link": "#", "sub": null}
